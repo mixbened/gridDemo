@@ -1,0 +1,38 @@
+html {
+    background: darkred;
+    font-family: 'Avenir'
+}
+
+footer, header {
+    height: 32vh;
+}
+
+.box {
+    color: darkred;
+    background: rgb(233, 233, 233);
+    text-align: center;
+    padding: 2em 1em;
+    margin: 5px;
+}
+
+.mainContainer {
+    height: 32vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.contentContainer {
+    flex: 2;
+}
+
+sidebar {
+    flex: 1;
+    height: 64vh;
+}
+
+.flex > main, section {
+    flex: 1;
+}
+
